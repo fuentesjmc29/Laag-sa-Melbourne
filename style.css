@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+}
+
+h1, #date {
+    text-align: center;
+}
+
+.place {
+    display: inline-block
+}
+
+h3 {
+    margin: 20px;
+}
+
+img {
+    margin: 0 20px;
+    width: 200px;
+}
+
+@media (max-width: 430px) {
+    body {
+        /* background-color: red; */
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .date {
+        font-weight: bold;
+    }
+    .place {
+        width: 400px;
+        margin: auto;
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
